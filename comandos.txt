@@ -1,0 +1,14 @@
+# Criação dos script shell
+nano calculadora.sh
+
+# Tornar o arquivo executável
+chmod +x calculadora.sh
+
+# Definir permissões para o arquivo: escrita só para o dono, leitura/execução para outros
+chmod 744 calculadora.sh
+
+# Criação do arquivo Python da calculadora
+nano calculadora.py
+
+#Execução do script
+./calculadora.sh
